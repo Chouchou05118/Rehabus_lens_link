@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 1",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21283,
+          22.3169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 2",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.212829,
+          22.31961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 3",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.212506,
+          22.318185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 4",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21853,
+          22.31463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 5",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21942,
+          22.31412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 6",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21695,
+          22.313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 7",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21042,
+          22.324155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 8",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.228595,
+          22.30745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 9",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96783,
+          22.409594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 10",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.967278,
+          22.401472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 11",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96875,
+          22.398274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 12",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.973686,
+          22.38225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 13",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12119,
+          22.27089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 14",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.143583,
+          22.501111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 15",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14356,
+          22.50015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 16",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22545,
+          22.279969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 17",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.136971,
+          22.343191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 18",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12575,
+          22.354667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 19",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23359,
+          22.422987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 20",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17023,
+          22.453631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 21",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10775,
+          22.374734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 22",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.255625,
+          22.307403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 23",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.147727,
+          22.2509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Existing Depot 24",
+        "source": "parking.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1349,
+          22.50747
+        ]
+      }
+    }
+  ]
+}
