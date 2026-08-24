@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "poi-cleaning-report-v1",
+  "generatedAt": "2026-03-30T13:13:58.461719+00:00",
+  "source": {
+    "file": "data_202406/POI.csv",
+    "encoding": "utf-8",
+    "mappingVersion": "poi-type-mapping-v2",
+    "rowCountRaw": 312342,
+    "rowCountOutput": 312342,
+    "note": "Only in-study-bbox records included. Out-of-bbox records counted in report but excluded from this file."
+  },
+  "summary": {
+    "rowCountRaw": 312342,
+    "rowCountOutput": 312342,
+    "inStudyBbox": 312342,
+    "invalidCoord": 0,
+    "missingName": 17,
+    "missingMajor": 0,
+    "missingMinor": 0,
+    "possibleDuplicate": 5692,
+    "unmappedCategory": 0
+  },
+  "categoryDistributionAll": {
+    "transport": 23451,
+    "leisure": 11019,
+    "public_service": 13969,
+    "other": 117859,
+    "restaurant": 38929,
+    "commercial": 74481,
+    "education": 5210,
+    "medical": 21453,
+    "bank": 5971
+  },
+  "categoryDistributionInBbox": {
+    "transport": 23451,
+    "leisure": 11019,
+    "public_service": 13969,
+    "other": 117859,
+    "restaurant": 38929,
+    "commercial": 74481,
+    "education": 5210,
+    "medical": 21453,
+    "bank": 5971
+  },
+  "topUnmappedKeys": []
+}

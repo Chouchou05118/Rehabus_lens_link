@@ -1,0 +1,920 @@
+{
+  "schemaVersion": "poi-type-mapping-v2",
+  "generatedAt": "2026-03-30T00:00:00.000Z",
+  "source": "data_202406/POI.csv",
+  "note": "Deterministic 1:1 mapping. Each raw_major x raw_minor has exactly one canonical category+subcategory. Replaces v1 which had ambiguous 1:N rows.",
+  "categories": [
+    "medical",
+    "transport",
+    "commercial",
+    "public_service",
+    "leisure",
+    "accessibility_support",
+    "education",
+    "restaurant",
+    "bank",
+    "other"
+  ],
+  "rows": [
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "中国菜",
+      "category": "restaurant",
+      "subcategory": "chinese_cuisine"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "外国菜",
+      "category": "restaurant",
+      "subcategory": "foreign_cuisine"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "小吃快餐",
+      "category": "restaurant",
+      "subcategory": "fast_food"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "咖啡",
+      "category": "restaurant",
+      "subcategory": "cafe"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "蛋糕甜品店",
+      "category": "restaurant",
+      "subcategory": "dessert"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "茶座",
+      "category": "restaurant",
+      "subcategory": "teahouse"
+    },
+    {
+      "raw_major": "餐饮美食",
+      "raw_minor": "其他",
+      "category": "restaurant",
+      "subcategory": "other_restaurant"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "便利店",
+      "category": "commercial",
+      "subcategory": "convenience_store"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "超市",
+      "category": "commercial",
+      "subcategory": "supermarket"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "百货商场",
+      "category": "commercial",
+      "subcategory": "department_store"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "购物中心",
+      "category": "commercial",
+      "subcategory": "shopping_mall"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "家居建材",
+      "category": "commercial",
+      "subcategory": "home_furnishing"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "家电数码",
+      "category": "commercial",
+      "subcategory": "electronics"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "文体用品",
+      "category": "commercial",
+      "subcategory": "sports_stationery"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "花鸟鱼虫",
+      "category": "commercial",
+      "subcategory": "pet_garden"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "市场",
+      "category": "commercial",
+      "subcategory": "market"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "免税店",
+      "category": "commercial",
+      "subcategory": "duty_free"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "商业街",
+      "category": "commercial",
+      "subcategory": "commercial_street"
+    },
+    {
+      "raw_major": "购物消费",
+      "raw_minor": "其他",
+      "category": "commercial",
+      "subcategory": "other_commercial"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "诊所",
+      "category": "medical",
+      "subcategory": "clinic"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "综合医院",
+      "category": "medical",
+      "subcategory": "general_hospital"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "专科医院",
+      "category": "medical",
+      "subcategory": "specialist_hospital"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "医药销售",
+      "category": "medical",
+      "subcategory": "pharmacy"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "急救中心",
+      "category": "medical",
+      "subcategory": "emergency"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "疾病预防",
+      "category": "medical",
+      "subcategory": "disease_prevention"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "动物医疗",
+      "category": "other",
+      "subcategory": "veterinary"
+    },
+    {
+      "raw_major": "医疗保健",
+      "raw_minor": "其他",
+      "category": "medical",
+      "subcategory": "other_medical"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "公交站",
+      "category": "transport",
+      "subcategory": "bus_stop"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "停车场",
+      "category": "transport",
+      "subcategory": "parking"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "地铁",
+      "category": "transport",
+      "subcategory": "mtr_station"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "港口码头",
+      "category": "transport",
+      "subcategory": "ferry_pier"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "轮渡",
+      "category": "transport",
+      "subcategory": "ferry"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "飞机",
+      "category": "transport",
+      "subcategory": "airport"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "火车",
+      "category": "transport",
+      "subcategory": "train_station"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "长途汽车",
+      "category": "transport",
+      "subcategory": "coach_station"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "收费站",
+      "category": "transport",
+      "subcategory": "toll_station"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "口岸",
+      "category": "transport",
+      "subcategory": "border_crossing"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "服务区",
+      "category": "transport",
+      "subcategory": "rest_area"
+    },
+    {
+      "raw_major": "交通设施",
+      "raw_minor": "其他",
+      "category": "transport",
+      "subcategory": "other_transport"
+    },
+    {
+      "raw_major": "金融机构",
+      "raw_minor": "银行",
+      "category": "bank",
+      "subcategory": "bank"
+    },
+    {
+      "raw_major": "金融机构",
+      "raw_minor": "ATM",
+      "category": "bank",
+      "subcategory": "atm"
+    },
+    {
+      "raw_major": "金融机构",
+      "raw_minor": "保险",
+      "category": "bank",
+      "subcategory": "insurance"
+    },
+    {
+      "raw_major": "金融机构",
+      "raw_minor": "投资理财",
+      "category": "bank",
+      "subcategory": "investment"
+    },
+    {
+      "raw_major": "金融机构",
+      "raw_minor": "其他",
+      "category": "bank",
+      "subcategory": "other_financial"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "培训单位",
+      "category": "education",
+      "subcategory": "training_center"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "幼儿园",
+      "category": "education",
+      "subcategory": "kindergarten"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "中学",
+      "category": "education",
+      "subcategory": "secondary_school"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "小学",
+      "category": "education",
+      "subcategory": "primary_school"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "高等教育",
+      "category": "education",
+      "subcategory": "university"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "成人教育",
+      "category": "education",
+      "subcategory": "adult_education"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "职业技术教育",
+      "category": "education",
+      "subcategory": "vocational_school"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "驾校",
+      "category": "education",
+      "subcategory": "driving_school"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "图书馆",
+      "category": "public_service",
+      "subcategory": "library"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "科研单位",
+      "category": "public_service",
+      "subcategory": "research_institute"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "新闻出版",
+      "category": "public_service",
+      "subcategory": "media_publishing"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "广播电视",
+      "category": "public_service",
+      "subcategory": "broadcast"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "档案馆",
+      "category": "public_service",
+      "subcategory": "archive"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "信息咨询中心",
+      "category": "public_service",
+      "subcategory": "info_center"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "会展展览",
+      "category": "public_service",
+      "subcategory": "exhibition_center"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "博物馆",
+      "category": "leisure",
+      "subcategory": "museum"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "文化宫",
+      "category": "leisure",
+      "subcategory": "cultural_center"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "艺术团体",
+      "category": "leisure",
+      "subcategory": "arts_group"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "天文馆",
+      "category": "leisure",
+      "subcategory": "planetarium"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "美术展览",
+      "category": "leisure",
+      "subcategory": "art_gallery"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "科技馆",
+      "category": "leisure",
+      "subcategory": "science_museum"
+    },
+    {
+      "raw_major": "科教文化",
+      "raw_minor": "其他",
+      "category": "public_service",
+      "subcategory": "other_public_service"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "公厕",
+      "category": "public_service",
+      "subcategory": "public_toilet"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "邮局",
+      "category": "public_service",
+      "subcategory": "post_office"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "社区中心",
+      "category": "public_service",
+      "subcategory": "community_center"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "彩票销售",
+      "category": "public_service",
+      "subcategory": "lottery"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "公共事业",
+      "category": "public_service",
+      "subcategory": "utilities"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "信息咨询中心",
+      "category": "public_service",
+      "subcategory": "info_center"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "美容理发",
+      "category": "commercial",
+      "subcategory": "beauty_salon"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "洗衣",
+      "category": "commercial",
+      "subcategory": "laundry"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "洗浴推拿",
+      "category": "commercial",
+      "subcategory": "spa_massage"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "摄影打印",
+      "category": "commercial",
+      "subcategory": "photo_print"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "电讯营业厅",
+      "category": "commercial",
+      "subcategory": "telecom"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "中介",
+      "category": "commercial",
+      "subcategory": "agency"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "物流",
+      "category": "transport",
+      "subcategory": "logistics"
+    },
+    {
+      "raw_major": "生活服务",
+      "raw_minor": "其他",
+      "category": "public_service",
+      "subcategory": "other_public_service"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "健身中心",
+      "category": "leisure",
+      "subcategory": "gym"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "综合体育馆",
+      "category": "leisure",
+      "subcategory": "sports_complex"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "篮球",
+      "category": "leisure",
+      "subcategory": "basketball"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "足球",
+      "category": "leisure",
+      "subcategory": "football"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "网球",
+      "category": "leisure",
+      "subcategory": "tennis"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "游泳",
+      "category": "leisure",
+      "subcategory": "swimming"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "壁球",
+      "category": "leisure",
+      "subcategory": "squash"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "羽毛球",
+      "category": "leisure",
+      "subcategory": "badminton"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "水上运动",
+      "category": "leisure",
+      "subcategory": "water_sports"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "露营地",
+      "category": "leisure",
+      "subcategory": "campsite"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "马术&赛马",
+      "category": "leisure",
+      "subcategory": "equestrian"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "台球",
+      "category": "leisure",
+      "subcategory": "billiards"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "高尔夫球",
+      "category": "leisure",
+      "subcategory": "golf"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "跆拳道",
+      "category": "leisure",
+      "subcategory": "martial_arts"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "乒乓球",
+      "category": "leisure",
+      "subcategory": "table_tennis"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "保龄球",
+      "category": "leisure",
+      "subcategory": "bowling"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "冰雪运动",
+      "category": "leisure",
+      "subcategory": "ice_snow_sports"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "户外健身场所",
+      "category": "leisure",
+      "subcategory": "outdoor_fitness"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "橄榄球",
+      "category": "leisure",
+      "subcategory": "rugby"
+    },
+    {
+      "raw_major": "运动健身",
+      "raw_minor": "其他",
+      "category": "leisure",
+      "subcategory": "other_sports"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "公园",
+      "category": "leisure",
+      "subcategory": "park"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "景点",
+      "category": "leisure",
+      "subcategory": "scenic_spot"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "宗教",
+      "category": "leisure",
+      "subcategory": "religious_site"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "广场",
+      "category": "leisure",
+      "subcategory": "plaza"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "纪念馆",
+      "category": "leisure",
+      "subcategory": "memorial"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "水族馆",
+      "category": "leisure",
+      "subcategory": "aquarium"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "植物园",
+      "category": "leisure",
+      "subcategory": "botanical_garden"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "动物园",
+      "category": "leisure",
+      "subcategory": "zoo"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "红色旅游",
+      "category": "leisure",
+      "subcategory": "patriotic_site"
+    },
+    {
+      "raw_major": "旅游景点",
+      "raw_minor": "其他",
+      "category": "leisure",
+      "subcategory": "other_attraction"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "酒吧",
+      "category": "leisure",
+      "subcategory": "bar"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "度假养老",
+      "category": "leisure",
+      "subcategory": "resort"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "游乐场",
+      "category": "leisure",
+      "subcategory": "amusement_park"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "KTV",
+      "category": "leisure",
+      "subcategory": "ktv"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "网吧",
+      "category": "leisure",
+      "subcategory": "internet_cafe"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "棋牌室",
+      "category": "leisure",
+      "subcategory": "chess_room"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "电影院",
+      "category": "leisure",
+      "subcategory": "cinema"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "剧场",
+      "category": "leisure",
+      "subcategory": "theatre"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "农家乐",
+      "category": "leisure",
+      "subcategory": "rural_tourism"
+    },
+    {
+      "raw_major": "休闲娱乐",
+      "raw_minor": "其他",
+      "category": "leisure",
+      "subcategory": "other_leisure"
+    },
+    {
+      "raw_major": "酒店住宿",
+      "raw_minor": "舒适型酒店",
+      "category": "commercial",
+      "subcategory": "hotel"
+    },
+    {
+      "raw_major": "酒店住宿",
+      "raw_minor": "高档型酒店",
+      "category": "commercial",
+      "subcategory": "hotel"
+    },
+    {
+      "raw_major": "酒店住宿",
+      "raw_minor": "豪华型酒店",
+      "category": "commercial",
+      "subcategory": "hotel"
+    },
+    {
+      "raw_major": "酒店住宿",
+      "raw_minor": "青旅",
+      "category": "commercial",
+      "subcategory": "hostel"
+    },
+    {
+      "raw_major": "酒店住宿",
+      "raw_minor": "其他",
+      "category": "commercial",
+      "subcategory": "other_accommodation"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "汽车维修",
+      "category": "transport",
+      "subcategory": "auto_repair"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "汽车配件",
+      "category": "transport",
+      "subcategory": "auto_parts"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "充电站",
+      "category": "transport",
+      "subcategory": "ev_charging"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "汽车销售",
+      "category": "transport",
+      "subcategory": "auto_dealer"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "加油站",
+      "category": "transport",
+      "subcategory": "petrol_station"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "汽车养护",
+      "category": "transport",
+      "subcategory": "auto_service"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "二手车",
+      "category": "transport",
+      "subcategory": "used_car"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "汽车租赁",
+      "category": "transport",
+      "subcategory": "car_rental"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "洗车",
+      "category": "transport",
+      "subcategory": "car_wash"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "加气站",
+      "category": "transport",
+      "subcategory": "gas_station"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "其他能源站",
+      "category": "transport",
+      "subcategory": "other_energy_station"
+    },
+    {
+      "raw_major": "汽车相关",
+      "raw_minor": "其他",
+      "category": "transport",
+      "subcategory": "other_auto"
+    },
+    {
+      "raw_major": "公司企业",
+      "raw_minor": "公司",
+      "category": "other",
+      "subcategory": "company"
+    },
+    {
+      "raw_major": "公司企业",
+      "raw_minor": "工厂",
+      "category": "other",
+      "subcategory": "factory"
+    },
+    {
+      "raw_major": "公司企业",
+      "raw_minor": "农林牧渔",
+      "category": "other",
+      "subcategory": "agriculture"
+    },
+    {
+      "raw_major": "公司企业",
+      "raw_minor": "其他",
+      "category": "other",
+      "subcategory": "other_company"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "住宅区",
+      "category": "other",
+      "subcategory": "residential"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "写字楼",
+      "category": "other",
+      "subcategory": "office_building"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "工业大楼",
+      "category": "other",
+      "subcategory": "industrial_building"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "商住两用楼宇",
+      "category": "other",
+      "subcategory": "mixed_use_building"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "别墅区",
+      "category": "other",
+      "subcategory": "villa"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "宿舍",
+      "category": "other",
+      "subcategory": "dormitory"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "产业园",
+      "category": "other",
+      "subcategory": "industrial_park"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "社区中心",
+      "category": "public_service",
+      "subcategory": "community_center"
+    },
+    {
+      "raw_major": "商务住宅",
+      "raw_minor": "其他",
+      "category": "other",
+      "subcategory": "other_residential"
+    }
+  ]
+}

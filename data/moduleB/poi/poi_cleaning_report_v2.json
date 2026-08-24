@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "poi-cleaning-report-v2",
+  "generatedAt": "2026-04-14T04:07:10.450235+00:00",
+  "source": {
+    "selected": "data_202406/POI.csv",
+    "candidateRejected": "data_202406/POI_utf8.csv",
+    "reason": "POI_utf8.csv header/content contains mojibake; POI.csv is readable and structurally complete"
+  },
+  "summary": {
+    "rowCountRaw": 312342,
+    "rowCountOutput": 312342,
+    "validCoordCount": 312342,
+    "inStudyBboxCount": 312342,
+    "possibleDuplicate20mCount": 11403,
+    "possibleDuplicate20mRatePct": 3.65,
+    "categoryCounts": {
+      "transport": 22620,
+      "leisure": 11097,
+      "public_service": 26642,
+      "commercial": 175093,
+      "restaurant": 39307,
+      "education": 5926,
+      "other": 7196,
+      "bank": 6315,
+      "medical": 18009,
+      "accessibility_support": 137
+    },
+    "qualityFlagCounts": {
+      "unmapped_category": 7196,
+      "possible_duplicate_20m": 11403,
+      "missing_name": 17
+    }
+  }
+}
