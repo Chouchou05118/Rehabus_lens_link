@@ -1,0 +1,3730 @@
+{
+  "schemaVersion": "candidate-poi-features-v1",
+  "generatedAt": "2026-04-03T02:36:35.074274+00:00",
+  "source": {
+    "poi": "public/data/moduleB/poi/poi_cleaned_v1.json",
+    "poiMappingVersion": "poi-type-mapping-v2",
+    "candidates": "mock (10 representative sites)",
+    "note": "Rebuilt with v2 category system: restaurant/bank/education now tracked as separate poiFactors."
+  },
+  "radius": [
+    300,
+    500
+  ],
+  "radiusWeights": {
+    "300": 0.65,
+    "500": 0.35
+  },
+  "metadata": {
+    "aggregation_radius_m": 500,
+    "dedupe_radius_m": 50,
+    "mainCategories": [
+      "medical",
+      "transport",
+      "commercial",
+      "public_service",
+      "leisure",
+      "accessibility_support",
+      "restaurant",
+      "bank",
+      "education"
+    ]
+  },
+  "candidates": [
+    {
+      "candidateId": "gt-001",
+      "siteCode": "Site #A-017",
+      "lng": 114.188,
+      "lat": 22.312,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 14,
+          "count_500m": 62,
+          "nearest_distance_m": 18.61,
+          "density_score": 12.0,
+          "count_unique_50m": 56
+        },
+        "transport": {
+          "count_300m": 20,
+          "count_500m": 134,
+          "nearest_distance_m": 123.39,
+          "density_score": 27.69,
+          "count_unique_50m": 113
+        },
+        "commercial": {
+          "count_300m": 41,
+          "count_500m": 242,
+          "nearest_distance_m": 116.53,
+          "density_score": 13.8,
+          "count_unique_50m": 180
+        },
+        "public_service": {
+          "count_300m": 16,
+          "count_500m": 71,
+          "nearest_distance_m": 70.84,
+          "density_score": 27.06,
+          "count_unique_50m": 63
+        },
+        "leisure": {
+          "count_300m": 14,
+          "count_500m": 48,
+          "nearest_distance_m": 75.93,
+          "density_score": 29.8,
+          "count_unique_50m": 45
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 41,
+          "count_500m": 110,
+          "nearest_distance_m": 92.46,
+          "density_score": 15.32,
+          "count_unique_50m": 90
+        },
+        "bank": {
+          "count_300m": 7,
+          "count_500m": 15,
+          "nearest_distance_m": 197.47,
+          "density_score": 19.39,
+          "count_unique_50m": 14
+        },
+        "education": {
+          "count_300m": 6,
+          "count_500m": 27,
+          "nearest_distance_m": 27.53,
+          "density_score": 26.65,
+          "count_unique_50m": 26
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 17,
+          "count_500m": 65,
+          "nearest_distance_m": 130.82,
+          "count_unique_50m": 48
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 390.02,
+          "count_unique_50m": 4
+        },
+        "parking": {
+          "count_300m": 3,
+          "count_500m": 40,
+          "nearest_distance_m": 123.39,
+          "count_unique_50m": 38
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "logistics": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 359.97,
+          "count_unique_50m": 4
+        },
+        "supermarket": {
+          "count_300m": 1,
+          "count_500m": 7,
+          "nearest_distance_m": 199.61,
+          "count_unique_50m": 7
+        },
+        "convenience_store": {
+          "count_300m": 4,
+          "count_500m": 26,
+          "nearest_distance_m": 116.53,
+          "count_unique_50m": 23
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 6,
+          "count_500m": 8,
+          "nearest_distance_m": 209.34,
+          "count_unique_50m": 5
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 497.49,
+          "count_unique_50m": 1
+        },
+        "chinese_cuisine": {
+          "count_300m": 10,
+          "count_500m": 40,
+          "nearest_distance_m": 92.46,
+          "count_unique_50m": 37
+        },
+        "fast_food": {
+          "count_300m": 11,
+          "count_500m": 24,
+          "nearest_distance_m": 110.13,
+          "count_unique_50m": 22
+        },
+        "cafe": {
+          "count_300m": 4,
+          "count_500m": 6,
+          "nearest_distance_m": 193.13,
+          "count_unique_50m": 6
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "other_restaurant": {
+          "count_300m": 12,
+          "count_500m": 30,
+          "nearest_distance_m": 132.1,
+          "count_unique_50m": 26
+        },
+        "foreign_cuisine": {
+          "count_300m": 3,
+          "count_500m": 5,
+          "nearest_distance_m": 203.22,
+          "count_unique_50m": 5
+        },
+        "bank": {
+          "count_300m": 3,
+          "count_500m": 5,
+          "nearest_distance_m": 197.47,
+          "count_unique_50m": 5
+        },
+        "atm": {
+          "count_300m": 4,
+          "count_500m": 6,
+          "nearest_distance_m": 220.87,
+          "count_unique_50m": 6
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 10,
+          "count_500m": 48,
+          "nearest_distance_m": 18.61,
+          "count_unique_50m": 43
+        },
+        "general_hospital": {
+          "count_300m": 1,
+          "count_500m": 2,
+          "nearest_distance_m": 223.56,
+          "count_unique_50m": 2
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 376.01,
+          "count_unique_50m": 2
+        },
+        "pharmacy": {
+          "count_300m": 3,
+          "count_500m": 7,
+          "nearest_distance_m": 192.21,
+          "count_unique_50m": 7
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 354.36,
+          "count_unique_50m": 1
+        },
+        "park": {
+          "count_300m": 1,
+          "count_500m": 6,
+          "nearest_distance_m": 259.89,
+          "count_unique_50m": 6
+        },
+        "gym": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 167.2,
+          "count_unique_50m": 1
+        },
+        "sports_complex": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 206.05,
+          "count_unique_50m": 4
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "amusement_park": {
+          "count_300m": 2,
+          "count_500m": 6,
+          "nearest_distance_m": 194.92,
+          "count_unique_50m": 6
+        },
+        "public_toilet": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 175.79,
+          "count_unique_50m": 1
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "post_office": {
+          "count_300m": 2,
+          "count_500m": 2,
+          "nearest_distance_m": 148.69,
+          "count_unique_50m": 1
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 423.28,
+          "count_unique_50m": 1
+        },
+        "kindergarten": {
+          "count_300m": 4,
+          "count_500m": 10,
+          "nearest_distance_m": 27.53,
+          "count_unique_50m": 10
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 306.22,
+          "count_unique_50m": 3
+        },
+        "secondary_school": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 258.72,
+          "count_unique_50m": 4
+        },
+        "university": {
+          "count_300m": 1,
+          "count_500m": 3,
+          "nearest_distance_m": 289.28,
+          "count_unique_50m": 3
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "nearest_distance_m": 422.22,
+          "count_unique_50m": 5
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "accessibility_support",
+          "medical",
+          "commercial"
+        ],
+        "subcategoryStrengths": [
+          "bus_stop",
+          "clinic",
+          "parking"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-002",
+      "siteCode": "Site #B-023",
+      "lng": 114.225,
+      "lat": 22.279,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 107,
+          "count_500m": 158,
+          "nearest_distance_m": 55.26,
+          "density_score": 48.65,
+          "count_unique_50m": 118
+        },
+        "transport": {
+          "count_300m": 76,
+          "count_500m": 176,
+          "nearest_distance_m": 43.32,
+          "density_score": 51.31,
+          "count_unique_50m": 138
+        },
+        "commercial": {
+          "count_300m": 215,
+          "count_500m": 416,
+          "nearest_distance_m": 56.68,
+          "density_score": 35.37,
+          "count_unique_50m": 282
+        },
+        "public_service": {
+          "count_300m": 52,
+          "count_500m": 115,
+          "nearest_distance_m": 92.0,
+          "density_score": 56.85,
+          "count_unique_50m": 89
+        },
+        "leisure": {
+          "count_300m": 31,
+          "count_500m": 69,
+          "nearest_distance_m": 55.03,
+          "density_score": 50.98,
+          "count_unique_50m": 60
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 156,
+          "count_500m": 251,
+          "nearest_distance_m": 54.26,
+          "density_score": 44.5,
+          "count_unique_50m": 180
+        },
+        "bank": {
+          "count_300m": 26,
+          "count_500m": 45,
+          "nearest_distance_m": 129.43,
+          "density_score": 64.59,
+          "count_unique_50m": 35
+        },
+        "education": {
+          "count_300m": 19,
+          "count_500m": 38,
+          "nearest_distance_m": 46.4,
+          "density_score": 51.2,
+          "count_unique_50m": 33
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 54,
+          "count_500m": 89,
+          "nearest_distance_m": 43.32,
+          "count_unique_50m": 62
+        },
+        "mtr_station": {
+          "count_300m": 3,
+          "count_500m": 4,
+          "nearest_distance_m": 212.77,
+          "count_unique_50m": 4
+        },
+        "parking": {
+          "count_300m": 10,
+          "count_500m": 29,
+          "nearest_distance_m": 116.32,
+          "count_unique_50m": 29
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 5,
+          "nearest_distance_m": 429.03,
+          "count_unique_50m": 5
+        },
+        "logistics": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 337.6,
+          "count_unique_50m": 3
+        },
+        "supermarket": {
+          "count_300m": 10,
+          "count_500m": 16,
+          "nearest_distance_m": 129.17,
+          "count_unique_50m": 16
+        },
+        "convenience_store": {
+          "count_300m": 24,
+          "count_500m": 43,
+          "nearest_distance_m": 102.67,
+          "count_unique_50m": 37
+        },
+        "shopping_mall": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 186.16,
+          "count_unique_50m": 1
+        },
+        "department_store": {
+          "count_300m": 8,
+          "count_500m": 10,
+          "nearest_distance_m": 120.26,
+          "count_unique_50m": 8
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "chinese_cuisine": {
+          "count_300m": 57,
+          "count_500m": 77,
+          "nearest_distance_m": 67.92,
+          "count_unique_50m": 64
+        },
+        "fast_food": {
+          "count_300m": 26,
+          "count_500m": 38,
+          "nearest_distance_m": 127.55,
+          "count_unique_50m": 37
+        },
+        "cafe": {
+          "count_300m": 3,
+          "count_500m": 10,
+          "nearest_distance_m": 213.12,
+          "count_unique_50m": 10
+        },
+        "teahouse": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 195.58,
+          "count_unique_50m": 1
+        },
+        "other_restaurant": {
+          "count_300m": 43,
+          "count_500m": 74,
+          "nearest_distance_m": 54.26,
+          "count_unique_50m": 66
+        },
+        "foreign_cuisine": {
+          "count_300m": 14,
+          "count_500m": 33,
+          "nearest_distance_m": 120.68,
+          "count_unique_50m": 31
+        },
+        "bank": {
+          "count_300m": 9,
+          "count_500m": 14,
+          "nearest_distance_m": 182.3,
+          "count_unique_50m": 13
+        },
+        "atm": {
+          "count_300m": 7,
+          "count_500m": 15,
+          "nearest_distance_m": 178.1,
+          "count_unique_50m": 13
+        },
+        "insurance": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 196.88,
+          "count_unique_50m": 1
+        },
+        "clinic": {
+          "count_300m": 89,
+          "count_500m": 127,
+          "nearest_distance_m": 55.26,
+          "count_unique_50m": 94
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 438.37,
+          "count_unique_50m": 1
+        },
+        "specialist_hospital": {
+          "count_300m": 4,
+          "count_500m": 4,
+          "nearest_distance_m": 179.58,
+          "count_unique_50m": 4
+        },
+        "pharmacy": {
+          "count_300m": 11,
+          "count_500m": 18,
+          "nearest_distance_m": 57.05,
+          "count_unique_50m": 17
+        },
+        "emergency": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 120.73,
+          "count_unique_50m": 1
+        },
+        "park": {
+          "count_300m": 2,
+          "count_500m": 8,
+          "nearest_distance_m": 275.66,
+          "count_unique_50m": 8
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 363.05,
+          "count_unique_50m": 3
+        },
+        "sports_complex": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 280.99,
+          "count_unique_50m": 4
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 379.73,
+          "count_unique_50m": 1
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 377.84,
+          "count_unique_50m": 1
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 468.12,
+          "count_unique_50m": 1
+        },
+        "amusement_park": {
+          "count_300m": 1,
+          "count_500m": 3,
+          "nearest_distance_m": 255.21,
+          "count_unique_50m": 3
+        },
+        "public_toilet": {
+          "count_300m": 2,
+          "count_500m": 12,
+          "nearest_distance_m": 252.92,
+          "count_unique_50m": 9
+        },
+        "library": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 243.97,
+          "count_unique_50m": 1
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 399.06,
+          "count_unique_50m": 1
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 5,
+          "count_500m": 8,
+          "nearest_distance_m": 46.4,
+          "count_unique_50m": 8
+        },
+        "primary_school": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 137.85,
+          "count_unique_50m": 4
+        },
+        "secondary_school": {
+          "count_300m": 1,
+          "count_500m": 9,
+          "nearest_distance_m": 184.76,
+          "count_unique_50m": 9
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 12,
+          "count_500m": 17,
+          "nearest_distance_m": 80.82,
+          "count_unique_50m": 14
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "medium",
+        "topStrengths": [
+          "bank",
+          "public_service",
+          "transport"
+        ],
+        "topGaps": [
+          "accessibility_support"
+        ],
+        "subcategoryStrengths": [
+          "clinic",
+          "bus_stop",
+          "chinese_cuisine"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-003",
+      "siteCode": "Site #C-041",
+      "lng": 114.165,
+      "lat": 22.332,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 187,
+          "count_500m": 386,
+          "nearest_distance_m": 11.15,
+          "density_score": 100.0,
+          "count_unique_50m": 279
+        },
+        "transport": {
+          "count_300m": 181,
+          "count_500m": 282,
+          "nearest_distance_m": 37.74,
+          "density_score": 100.0,
+          "count_unique_50m": 238
+        },
+        "commercial": {
+          "count_300m": 482,
+          "count_500m": 1410,
+          "nearest_distance_m": 2.83,
+          "density_score": 100.0,
+          "count_unique_50m": 764
+        },
+        "public_service": {
+          "count_300m": 104,
+          "count_500m": 179,
+          "nearest_distance_m": 10.98,
+          "density_score": 100.0,
+          "count_unique_50m": 154
+        },
+        "leisure": {
+          "count_300m": 61,
+          "count_500m": 135,
+          "nearest_distance_m": 41.15,
+          "density_score": 100.0,
+          "count_unique_50m": 122
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 252,
+          "count_500m": 747,
+          "nearest_distance_m": 3.17,
+          "density_score": 100.0,
+          "count_unique_50m": 468
+        },
+        "bank": {
+          "count_300m": 12,
+          "count_500m": 74,
+          "nearest_distance_m": 90.38,
+          "density_score": 66.67,
+          "count_unique_50m": 66
+        },
+        "education": {
+          "count_300m": 41,
+          "count_500m": 67,
+          "nearest_distance_m": 44.92,
+          "density_score": 100.0,
+          "count_unique_50m": 61
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 49,
+          "count_500m": 106,
+          "nearest_distance_m": 55.64,
+          "count_unique_50m": 75
+        },
+        "mtr_station": {
+          "count_300m": 4,
+          "count_500m": 14,
+          "nearest_distance_m": 226.42,
+          "count_unique_50m": 13
+        },
+        "parking": {
+          "count_300m": 42,
+          "count_500m": 65,
+          "nearest_distance_m": 55.27,
+          "count_unique_50m": 64
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 2,
+          "count_500m": 4,
+          "nearest_distance_m": 161.36,
+          "count_unique_50m": 4
+        },
+        "logistics": {
+          "count_300m": 13,
+          "count_500m": 20,
+          "nearest_distance_m": 37.74,
+          "count_unique_50m": 19
+        },
+        "supermarket": {
+          "count_300m": 8,
+          "count_500m": 30,
+          "nearest_distance_m": 44.13,
+          "count_unique_50m": 28
+        },
+        "convenience_store": {
+          "count_300m": 47,
+          "count_500m": 105,
+          "nearest_distance_m": 59.47,
+          "count_unique_50m": 86
+        },
+        "shopping_mall": {
+          "count_300m": 3,
+          "count_500m": 4,
+          "nearest_distance_m": 46.67,
+          "count_unique_50m": 4
+        },
+        "department_store": {
+          "count_300m": 20,
+          "count_500m": 66,
+          "nearest_distance_m": 3.28,
+          "count_unique_50m": 45
+        },
+        "hotel": {
+          "count_300m": 2,
+          "count_500m": 4,
+          "nearest_distance_m": 223.43,
+          "count_unique_50m": 4
+        },
+        "chinese_cuisine": {
+          "count_300m": 115,
+          "count_500m": 305,
+          "nearest_distance_m": 20.09,
+          "count_unique_50m": 226
+        },
+        "fast_food": {
+          "count_300m": 24,
+          "count_500m": 87,
+          "nearest_distance_m": 15.63,
+          "count_unique_50m": 71
+        },
+        "cafe": {
+          "count_300m": 8,
+          "count_500m": 16,
+          "nearest_distance_m": 47.86,
+          "count_unique_50m": 16
+        },
+        "teahouse": {
+          "count_300m": 3,
+          "count_500m": 3,
+          "nearest_distance_m": 51.17,
+          "count_unique_50m": 3
+        },
+        "other_restaurant": {
+          "count_300m": 55,
+          "count_500m": 183,
+          "nearest_distance_m": 13.45,
+          "count_unique_50m": 140
+        },
+        "foreign_cuisine": {
+          "count_300m": 31,
+          "count_500m": 111,
+          "nearest_distance_m": 44.7,
+          "count_unique_50m": 93
+        },
+        "bank": {
+          "count_300m": 5,
+          "count_500m": 23,
+          "nearest_distance_m": 90.38,
+          "count_unique_50m": 22
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 23,
+          "nearest_distance_m": 308.69,
+          "count_unique_50m": 21
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 149,
+          "count_500m": 297,
+          "nearest_distance_m": 11.81,
+          "count_unique_50m": 218
+        },
+        "general_hospital": {
+          "count_300m": 3,
+          "count_500m": 3,
+          "nearest_distance_m": 190.39,
+          "count_unique_50m": 3
+        },
+        "specialist_hospital": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 182.02,
+          "count_unique_50m": 4
+        },
+        "pharmacy": {
+          "count_300m": 22,
+          "count_500m": 61,
+          "nearest_distance_m": 11.15,
+          "count_unique_50m": 58
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 2,
+          "count_500m": 7,
+          "nearest_distance_m": 176.37,
+          "count_unique_50m": 7
+        },
+        "gym": {
+          "count_300m": 3,
+          "count_500m": 3,
+          "nearest_distance_m": 91.38,
+          "count_unique_50m": 3
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 320.39,
+          "count_unique_50m": 2
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 352.49,
+          "count_unique_50m": 1
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 5,
+          "count_500m": 9,
+          "nearest_distance_m": 41.15,
+          "count_unique_50m": 9
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "nearest_distance_m": 384.23,
+          "count_unique_50m": 6
+        },
+        "public_toilet": {
+          "count_300m": 5,
+          "count_500m": 5,
+          "nearest_distance_m": 177.95,
+          "count_unique_50m": 5
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 451.29,
+          "count_unique_50m": 1
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 337.58,
+          "count_unique_50m": 3
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 4,
+          "count_500m": 10,
+          "nearest_distance_m": 200.15,
+          "count_unique_50m": 8
+        },
+        "primary_school": {
+          "count_300m": 5,
+          "count_500m": 7,
+          "nearest_distance_m": 92.27,
+          "count_unique_50m": 7
+        },
+        "secondary_school": {
+          "count_300m": 4,
+          "count_500m": 5,
+          "nearest_distance_m": 89.78,
+          "count_unique_50m": 5
+        },
+        "university": {
+          "count_300m": 2,
+          "count_500m": 2,
+          "nearest_distance_m": 146.51,
+          "count_unique_50m": 2
+        },
+        "training_center": {
+          "count_300m": 26,
+          "count_500m": 40,
+          "nearest_distance_m": 44.92,
+          "count_unique_50m": 37
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "good",
+        "topStrengths": [
+          "medical",
+          "transport",
+          "commercial"
+        ],
+        "topGaps": [
+          "accessibility_support"
+        ],
+        "subcategoryStrengths": [
+          "chinese_cuisine",
+          "clinic",
+          "other_restaurant"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-004",
+      "siteCode": "Site #D-008",
+      "lng": 114.142,
+      "lat": 22.286,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 50,
+          "count_500m": 161,
+          "nearest_distance_m": 166.15,
+          "density_score": 34.62,
+          "count_unique_50m": 139
+        },
+        "transport": {
+          "count_300m": 38,
+          "count_500m": 114,
+          "nearest_distance_m": 59.06,
+          "density_score": 29.86,
+          "count_unique_50m": 91
+        },
+        "commercial": {
+          "count_300m": 215,
+          "count_500m": 618,
+          "nearest_distance_m": 58.75,
+          "density_score": 44.13,
+          "count_unique_50m": 452
+        },
+        "public_service": {
+          "count_300m": 25,
+          "count_500m": 101,
+          "nearest_distance_m": 150.66,
+          "density_score": 39.62,
+          "count_unique_50m": 93
+        },
+        "leisure": {
+          "count_300m": 24,
+          "count_500m": 73,
+          "nearest_distance_m": 102.42,
+          "density_score": 47.35,
+          "count_unique_50m": 73
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 134,
+          "count_500m": 389,
+          "nearest_distance_m": 39.93,
+          "density_score": 52.5,
+          "count_unique_50m": 292
+        },
+        "bank": {
+          "count_300m": 22,
+          "count_500m": 41,
+          "nearest_distance_m": 162.97,
+          "density_score": 56.68,
+          "count_unique_50m": 33
+        },
+        "education": {
+          "count_300m": 14,
+          "count_500m": 55,
+          "nearest_distance_m": 173.25,
+          "density_score": 56.59,
+          "count_unique_50m": 47
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 16,
+          "count_500m": 56,
+          "nearest_distance_m": 177.16,
+          "count_unique_50m": 39
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 336.09,
+          "count_unique_50m": 3
+        },
+        "parking": {
+          "count_300m": 14,
+          "count_500m": 29,
+          "nearest_distance_m": 59.06,
+          "count_unique_50m": 28
+        },
+        "ferry_pier": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 250.13,
+          "count_unique_50m": 1
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "logistics": {
+          "count_300m": 2,
+          "count_500m": 6,
+          "nearest_distance_m": 170.79,
+          "count_unique_50m": 6
+        },
+        "supermarket": {
+          "count_300m": 5,
+          "count_500m": 14,
+          "nearest_distance_m": 200.58,
+          "count_unique_50m": 14
+        },
+        "convenience_store": {
+          "count_300m": 17,
+          "count_500m": 48,
+          "nearest_distance_m": 198.41,
+          "count_unique_50m": 43
+        },
+        "shopping_mall": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 206.45,
+          "count_unique_50m": 1
+        },
+        "department_store": {
+          "count_300m": 16,
+          "count_500m": 19,
+          "nearest_distance_m": 172.06,
+          "count_unique_50m": 14
+        },
+        "hotel": {
+          "count_300m": 3,
+          "count_500m": 6,
+          "nearest_distance_m": 218.6,
+          "count_unique_50m": 6
+        },
+        "chinese_cuisine": {
+          "count_300m": 50,
+          "count_500m": 139,
+          "nearest_distance_m": 39.93,
+          "count_unique_50m": 119
+        },
+        "fast_food": {
+          "count_300m": 25,
+          "count_500m": 57,
+          "nearest_distance_m": 60.61,
+          "count_unique_50m": 54
+        },
+        "cafe": {
+          "count_300m": 10,
+          "count_500m": 30,
+          "nearest_distance_m": 200.6,
+          "count_unique_50m": 27
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 460.07,
+          "count_unique_50m": 2
+        },
+        "other_restaurant": {
+          "count_300m": 23,
+          "count_500m": 86,
+          "nearest_distance_m": 58.86,
+          "count_unique_50m": 81
+        },
+        "foreign_cuisine": {
+          "count_300m": 18,
+          "count_500m": 56,
+          "nearest_distance_m": 154.94,
+          "count_unique_50m": 49
+        },
+        "bank": {
+          "count_300m": 8,
+          "count_500m": 18,
+          "nearest_distance_m": 162.97,
+          "count_unique_50m": 18
+        },
+        "atm": {
+          "count_300m": 8,
+          "count_500m": 15,
+          "nearest_distance_m": 168.64,
+          "count_unique_50m": 13
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 491.75,
+          "count_unique_50m": 1
+        },
+        "clinic": {
+          "count_300m": 36,
+          "count_500m": 119,
+          "nearest_distance_m": 166.15,
+          "count_unique_50m": 103
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "specialist_hospital": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 258.13,
+          "count_unique_50m": 4
+        },
+        "pharmacy": {
+          "count_300m": 12,
+          "count_500m": 30,
+          "nearest_distance_m": 169.16,
+          "count_unique_50m": 29
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 3,
+          "count_500m": 6,
+          "nearest_distance_m": 201.54,
+          "count_unique_50m": 6
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 347.89,
+          "count_unique_50m": 2
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 335.75,
+          "count_unique_50m": 3
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 4,
+          "count_500m": 11,
+          "nearest_distance_m": 202.08,
+          "count_unique_50m": 11
+        },
+        "amusement_park": {
+          "count_300m": 1,
+          "count_500m": 4,
+          "nearest_distance_m": 265.98,
+          "count_unique_50m": 4
+        },
+        "public_toilet": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "nearest_distance_m": 347.58,
+          "count_unique_50m": 6
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 357.36,
+          "count_unique_50m": 1
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 421.43,
+          "count_unique_50m": 1
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 3,
+          "count_500m": 13,
+          "nearest_distance_m": 173.25,
+          "count_unique_50m": 13
+        },
+        "primary_school": {
+          "count_300m": 1,
+          "count_500m": 5,
+          "nearest_distance_m": 263.13,
+          "count_unique_50m": 5
+        },
+        "secondary_school": {
+          "count_300m": 2,
+          "count_500m": 8,
+          "nearest_distance_m": 271.23,
+          "count_unique_50m": 6
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 8,
+          "count_500m": 29,
+          "nearest_distance_m": 181.7,
+          "count_unique_50m": 26
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "medium",
+        "topStrengths": [
+          "bank",
+          "education",
+          "restaurant"
+        ],
+        "topGaps": [
+          "accessibility_support"
+        ],
+        "subcategoryStrengths": [
+          "chinese_cuisine",
+          "clinic",
+          "other_restaurant"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-005",
+      "siteCode": "Site #E-055",
+      "lng": 114.198,
+      "lat": 22.345,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 8,
+          "count_500m": 66,
+          "nearest_distance_m": 179.33,
+          "density_score": 11.03,
+          "count_unique_50m": 40
+        },
+        "transport": {
+          "count_300m": 16,
+          "count_500m": 80,
+          "nearest_distance_m": 161.07,
+          "density_score": 17.75,
+          "count_unique_50m": 58
+        },
+        "commercial": {
+          "count_300m": 3,
+          "count_500m": 65,
+          "nearest_distance_m": 275.44,
+          "density_score": 3.06,
+          "count_unique_50m": 45
+        },
+        "public_service": {
+          "count_300m": 3,
+          "count_500m": 17,
+          "nearest_distance_m": 205.42,
+          "density_score": 6.07,
+          "count_unique_50m": 17
+        },
+        "leisure": {
+          "count_300m": 9,
+          "count_500m": 15,
+          "nearest_distance_m": 148.1,
+          "density_score": 12.77,
+          "count_unique_50m": 15
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 3,
+          "count_500m": 33,
+          "nearest_distance_m": 185.62,
+          "density_score": 3.17,
+          "count_unique_50m": 27
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "nearest_distance_m": 301.84,
+          "density_score": 4.15,
+          "count_unique_50m": 6
+        },
+        "education": {
+          "count_300m": 2,
+          "count_500m": 18,
+          "nearest_distance_m": 265.11,
+          "density_score": 15.17,
+          "count_unique_50m": 17
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 12,
+          "count_500m": 59,
+          "nearest_distance_m": 161.07,
+          "count_unique_50m": 38
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "parking": {
+          "count_300m": 4,
+          "count_500m": 12,
+          "nearest_distance_m": 237.11,
+          "count_unique_50m": 12
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "logistics": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 343.5,
+          "count_unique_50m": 3
+        },
+        "supermarket": {
+          "count_300m": 0,
+          "count_500m": 8,
+          "nearest_distance_m": 307.61,
+          "count_unique_50m": 8
+        },
+        "convenience_store": {
+          "count_300m": 2,
+          "count_500m": 14,
+          "nearest_distance_m": 289.35,
+          "count_unique_50m": 12
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "nearest_distance_m": 341.96,
+          "count_unique_50m": 4
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "chinese_cuisine": {
+          "count_300m": 0,
+          "count_500m": 12,
+          "nearest_distance_m": 307.83,
+          "count_unique_50m": 12
+        },
+        "fast_food": {
+          "count_300m": 1,
+          "count_500m": 9,
+          "nearest_distance_m": 267.35,
+          "count_unique_50m": 8
+        },
+        "cafe": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 354.04,
+          "count_unique_50m": 1
+        },
+        "teahouse": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 263.02,
+          "count_unique_50m": 1
+        },
+        "other_restaurant": {
+          "count_300m": 1,
+          "count_500m": 9,
+          "nearest_distance_m": 185.62,
+          "count_unique_50m": 9
+        },
+        "foreign_cuisine": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 324.9,
+          "count_unique_50m": 3
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 301.84,
+          "count_unique_50m": 3
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 5,
+          "count_500m": 41,
+          "nearest_distance_m": 179.33,
+          "count_unique_50m": 25
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 12,
+          "nearest_distance_m": 363.25,
+          "count_unique_50m": 8
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 444.21,
+          "count_unique_50m": 1
+        },
+        "pharmacy": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 306.81,
+          "count_unique_50m": 3
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 216.82,
+          "count_unique_50m": 1
+        },
+        "gym": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 272.37,
+          "count_unique_50m": 1
+        },
+        "sports_complex": {
+          "count_300m": 2,
+          "count_500m": 2,
+          "nearest_distance_m": 212.33,
+          "count_unique_50m": 2
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "public_toilet": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 223.34,
+          "count_unique_50m": 1
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 347.31,
+          "count_unique_50m": 2
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 356.11,
+          "count_unique_50m": 1
+        },
+        "kindergarten": {
+          "count_300m": 2,
+          "count_500m": 6,
+          "nearest_distance_m": 265.11,
+          "count_unique_50m": 6
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 387.08,
+          "count_unique_50m": 4
+        },
+        "secondary_school": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 389.57,
+          "count_unique_50m": 4
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 317.05,
+          "count_unique_50m": 4
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "accessibility_support",
+          "commercial",
+          "restaurant"
+        ],
+        "subcategoryStrengths": [
+          "bus_stop",
+          "clinic",
+          "convenience_store"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-006",
+      "siteCode": "Site #F-012",
+      "lng": 114.172,
+      "lat": 22.298,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 11,
+          "count_500m": 124,
+          "nearest_distance_m": 78.09,
+          "density_score": 19.7,
+          "count_unique_50m": 86
+        },
+        "transport": {
+          "count_300m": 45,
+          "count_500m": 130,
+          "nearest_distance_m": 24.67,
+          "density_score": 34.55,
+          "count_unique_50m": 108
+        },
+        "commercial": {
+          "count_300m": 371,
+          "count_500m": 1040,
+          "nearest_distance_m": 16.73,
+          "density_score": 75.01,
+          "count_unique_50m": 544
+        },
+        "public_service": {
+          "count_300m": 38,
+          "count_500m": 144,
+          "nearest_distance_m": 42.95,
+          "density_score": 57.66,
+          "count_unique_50m": 129
+        },
+        "leisure": {
+          "count_300m": 27,
+          "count_500m": 94,
+          "nearest_distance_m": 97.07,
+          "density_score": 58.06,
+          "count_unique_50m": 88
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 120,
+          "count_500m": 463,
+          "nearest_distance_m": 26.49,
+          "density_score": 56.45,
+          "count_unique_50m": 299
+        },
+        "bank": {
+          "count_300m": 32,
+          "count_500m": 85,
+          "nearest_distance_m": 61.77,
+          "density_score": 100.0,
+          "count_unique_50m": 70
+        },
+        "education": {
+          "count_300m": 6,
+          "count_500m": 42,
+          "nearest_distance_m": 152.33,
+          "density_score": 37.13,
+          "count_unique_50m": 30
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 18,
+          "count_500m": 37,
+          "nearest_distance_m": 26.12,
+          "count_unique_50m": 28
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 418.3,
+          "count_unique_50m": 1
+        },
+        "parking": {
+          "count_300m": 10,
+          "count_500m": 44,
+          "nearest_distance_m": 88.93,
+          "count_unique_50m": 41
+        },
+        "ferry_pier": {
+          "count_300m": 2,
+          "count_500m": 2,
+          "nearest_distance_m": 97.4,
+          "count_unique_50m": 2
+        },
+        "ev_charging": {
+          "count_300m": 2,
+          "count_500m": 4,
+          "nearest_distance_m": 89.97,
+          "count_unique_50m": 3
+        },
+        "logistics": {
+          "count_300m": 4,
+          "count_500m": 15,
+          "nearest_distance_m": 66.07,
+          "count_unique_50m": 13
+        },
+        "supermarket": {
+          "count_300m": 7,
+          "count_500m": 10,
+          "nearest_distance_m": 75.43,
+          "count_unique_50m": 10
+        },
+        "convenience_store": {
+          "count_300m": 13,
+          "count_500m": 45,
+          "nearest_distance_m": 19.8,
+          "count_unique_50m": 38
+        },
+        "shopping_mall": {
+          "count_300m": 4,
+          "count_500m": 8,
+          "nearest_distance_m": 68.35,
+          "count_unique_50m": 7
+        },
+        "department_store": {
+          "count_300m": 12,
+          "count_500m": 31,
+          "nearest_distance_m": 47.48,
+          "count_unique_50m": 26
+        },
+        "hotel": {
+          "count_300m": 7,
+          "count_500m": 17,
+          "nearest_distance_m": 16.73,
+          "count_unique_50m": 17
+        },
+        "chinese_cuisine": {
+          "count_300m": 36,
+          "count_500m": 154,
+          "nearest_distance_m": 42.07,
+          "count_unique_50m": 118
+        },
+        "fast_food": {
+          "count_300m": 9,
+          "count_500m": 38,
+          "nearest_distance_m": 80.99,
+          "count_unique_50m": 36
+        },
+        "cafe": {
+          "count_300m": 8,
+          "count_500m": 30,
+          "nearest_distance_m": 40.0,
+          "count_unique_50m": 28
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 432.13,
+          "count_unique_50m": 1
+        },
+        "other_restaurant": {
+          "count_300m": 35,
+          "count_500m": 119,
+          "nearest_distance_m": 26.49,
+          "count_unique_50m": 97
+        },
+        "foreign_cuisine": {
+          "count_300m": 28,
+          "count_500m": 109,
+          "nearest_distance_m": 55.5,
+          "count_unique_50m": 85
+        },
+        "bank": {
+          "count_300m": 13,
+          "count_500m": 30,
+          "nearest_distance_m": 89.46,
+          "count_unique_50m": 29
+        },
+        "atm": {
+          "count_300m": 3,
+          "count_500m": 10,
+          "nearest_distance_m": 89.51,
+          "count_unique_50m": 10
+        },
+        "insurance": {
+          "count_300m": 3,
+          "count_500m": 9,
+          "nearest_distance_m": 251.06,
+          "count_unique_50m": 7
+        },
+        "clinic": {
+          "count_300m": 5,
+          "count_500m": 87,
+          "nearest_distance_m": 78.09,
+          "count_unique_50m": 61
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 434.29,
+          "count_unique_50m": 4
+        },
+        "pharmacy": {
+          "count_300m": 5,
+          "count_500m": 22,
+          "nearest_distance_m": 96.29,
+          "count_unique_50m": 21
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 343.75,
+          "count_unique_50m": 4
+        },
+        "gym": {
+          "count_300m": 2,
+          "count_500m": 9,
+          "nearest_distance_m": 239.65,
+          "count_unique_50m": 9
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 300.79,
+          "count_unique_50m": 2
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 8,
+          "count_500m": 18,
+          "nearest_distance_m": 153.7,
+          "count_unique_50m": 17
+        },
+        "amusement_park": {
+          "count_300m": 2,
+          "count_500m": 3,
+          "nearest_distance_m": 153.36,
+          "count_unique_50m": 3
+        },
+        "public_toilet": {
+          "count_300m": 6,
+          "count_500m": 21,
+          "nearest_distance_m": 53.52,
+          "count_unique_50m": 20
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 300.57,
+          "count_unique_50m": 2
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 422.86,
+          "count_unique_50m": 1
+        },
+        "kindergarten": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "primary_school": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 157.53,
+          "count_unique_50m": 1
+        },
+        "secondary_school": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 166.11,
+          "count_unique_50m": 1
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 4,
+          "count_500m": 39,
+          "nearest_distance_m": 152.33,
+          "count_unique_50m": 27
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "medium",
+        "topStrengths": [
+          "bank",
+          "commercial",
+          "leisure"
+        ],
+        "topGaps": [
+          "accessibility_support",
+          "medical"
+        ],
+        "subcategoryStrengths": [
+          "chinese_cuisine",
+          "other_restaurant",
+          "foreign_cuisine"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-007",
+      "siteCode": "Site #G-067",
+      "lng": 114.156,
+      "lat": 22.341,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 2,
+          "count_500m": 59,
+          "nearest_distance_m": 83.22,
+          "density_score": 8.55,
+          "count_unique_50m": 34
+        },
+        "transport": {
+          "count_300m": 2,
+          "count_500m": 83,
+          "nearest_distance_m": 65.05,
+          "density_score": 14.03,
+          "count_unique_50m": 75
+        },
+        "commercial": {
+          "count_300m": 4,
+          "count_500m": 165,
+          "nearest_distance_m": 71.67,
+          "density_score": 7.48,
+          "count_unique_50m": 114
+        },
+        "public_service": {
+          "count_300m": 0,
+          "count_500m": 49,
+          "nearest_distance_m": 366.75,
+          "density_score": 13.17,
+          "count_unique_50m": 31
+        },
+        "leisure": {
+          "count_300m": 4,
+          "count_500m": 24,
+          "nearest_distance_m": 167.76,
+          "density_score": 12.66,
+          "count_unique_50m": 22
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 1,
+          "count_500m": 79,
+          "nearest_distance_m": 85.09,
+          "density_score": 6.65,
+          "count_unique_50m": 65
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 7,
+          "nearest_distance_m": 386.82,
+          "density_score": 4.85,
+          "count_unique_50m": 7
+        },
+        "education": {
+          "count_300m": 1,
+          "count_500m": 7,
+          "nearest_distance_m": 256.44,
+          "density_score": 6.19,
+          "count_unique_50m": 7
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 1,
+          "count_500m": 14,
+          "nearest_distance_m": 65.05,
+          "count_unique_50m": 14
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "parking": {
+          "count_300m": 0,
+          "count_500m": 29,
+          "nearest_distance_m": 335.43,
+          "count_unique_50m": 28
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 463.56,
+          "count_unique_50m": 2
+        },
+        "logistics": {
+          "count_300m": 1,
+          "count_500m": 17,
+          "nearest_distance_m": 135.41,
+          "count_unique_50m": 17
+        },
+        "supermarket": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 447.06,
+          "count_unique_50m": 2
+        },
+        "convenience_store": {
+          "count_300m": 0,
+          "count_500m": 7,
+          "nearest_distance_m": 430.69,
+          "count_unique_50m": 6
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 471.85,
+          "count_unique_50m": 1
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 458.62,
+          "count_unique_50m": 1
+        },
+        "chinese_cuisine": {
+          "count_300m": 1,
+          "count_500m": 27,
+          "nearest_distance_m": 85.09,
+          "count_unique_50m": 24
+        },
+        "fast_food": {
+          "count_300m": 0,
+          "count_500m": 5,
+          "nearest_distance_m": 393.52,
+          "count_unique_50m": 5
+        },
+        "cafe": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 339.03,
+          "count_unique_50m": 4
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 323.25,
+          "count_unique_50m": 2
+        },
+        "other_restaurant": {
+          "count_300m": 0,
+          "count_500m": 24,
+          "nearest_distance_m": 325.36,
+          "count_unique_50m": 24
+        },
+        "foreign_cuisine": {
+          "count_300m": 0,
+          "count_500m": 10,
+          "nearest_distance_m": 387.48,
+          "count_unique_50m": 9
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 467.56,
+          "count_unique_50m": 1
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 482.54,
+          "count_unique_50m": 1
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 0,
+          "count_500m": 31,
+          "nearest_distance_m": 383.98,
+          "count_unique_50m": 20
+        },
+        "general_hospital": {
+          "count_300m": 1,
+          "count_500m": 14,
+          "nearest_distance_m": 295.21,
+          "count_unique_50m": 11
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 410.1,
+          "count_unique_50m": 2
+        },
+        "pharmacy": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 434.88,
+          "count_unique_50m": 2
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 361.2,
+          "count_unique_50m": 2
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 449.38,
+          "count_unique_50m": 4
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 492.43,
+          "count_unique_50m": 1
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "public_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 390.84,
+          "count_unique_50m": 1
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 473.85,
+          "count_unique_50m": 1
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "secondary_school": {
+          "count_300m": 1,
+          "count_500m": 3,
+          "nearest_distance_m": 256.44,
+          "count_unique_50m": 3
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 442.63,
+          "count_unique_50m": 3
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "accessibility_support",
+          "bank",
+          "education"
+        ],
+        "subcategoryStrengths": [
+          "clinic",
+          "parking",
+          "chinese_cuisine"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。",
+        "医疗资源近邻度较高，适合优先布局应急充电与接驳服务。",
+        "餐饮配套较密集，适合结合人流节点布局服务点。",
+        "金融服务设施集中，适合面向商务出行需求配置服务点。",
+        "周边教育设施较多，适合兼顾家长接送需求配置停靠点。"
+      ]
+    },
+    {
+      "candidateId": "depot-008",
+      "siteCode": "Site #H-034",
+      "lng": 114.234,
+      "lat": 22.296,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 354.66,
+          "density_score": 0.27,
+          "count_unique_50m": 2
+        },
+        "transport": {
+          "count_300m": 9,
+          "count_500m": 21,
+          "nearest_distance_m": 72.19,
+          "density_score": 6.1,
+          "count_unique_50m": 18
+        },
+        "commercial": {
+          "count_300m": 2,
+          "count_500m": 8,
+          "nearest_distance_m": 225.76,
+          "density_score": 0.51,
+          "count_unique_50m": 7
+        },
+        "public_service": {
+          "count_300m": 5,
+          "count_500m": 10,
+          "nearest_distance_m": 47.02,
+          "density_score": 5.18,
+          "count_unique_50m": 10
+        },
+        "leisure": {
+          "count_300m": 3,
+          "count_500m": 4,
+          "nearest_distance_m": 85.42,
+          "density_score": 3.86,
+          "count_unique_50m": 3
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 1,
+          "count_500m": 6,
+          "nearest_distance_m": 240.8,
+          "density_score": 0.65,
+          "count_unique_50m": 5
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "education": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 7,
+          "count_500m": 15,
+          "nearest_distance_m": 72.19,
+          "count_unique_50m": 12
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "parking": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 441.16,
+          "count_unique_50m": 1
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "logistics": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "supermarket": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "convenience_store": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 311.45,
+          "count_unique_50m": 1
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "chinese_cuisine": {
+          "count_300m": 0,
+          "count_500m": 4,
+          "nearest_distance_m": 374.87,
+          "count_unique_50m": 4
+        },
+        "fast_food": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cafe": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 377.46,
+          "count_unique_50m": 1
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "other_restaurant": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 240.8,
+          "count_unique_50m": 1
+        },
+        "foreign_cuisine": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 354.66,
+          "count_unique_50m": 2
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "pharmacy": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "public_toilet": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 213.81,
+          "count_unique_50m": 1
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 411.55,
+          "count_unique_50m": 1
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "secondary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "education",
+          "bank",
+          "accessibility_support"
+        ],
+        "subcategoryStrengths": [
+          "bus_stop",
+          "chinese_cuisine",
+          "clinic"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。"
+      ]
+    },
+    {
+      "candidateId": "depot-009",
+      "siteCode": "Site #I-019",
+      "lng": 114.119,
+      "lat": 22.264,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "transport": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "commercial": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "public_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "leisure": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "education": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "parking": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "logistics": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "supermarket": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "convenience_store": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "chinese_cuisine": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "fast_food": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cafe": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "other_restaurant": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "foreign_cuisine": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "pharmacy": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "public_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "secondary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "university": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "education",
+          "bank",
+          "restaurant"
+        ],
+        "subcategoryStrengths": [],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "公共便民服务覆盖不足，建议补充社区服务联动设施。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。"
+      ]
+    },
+    {
+      "candidateId": "depot-010",
+      "siteCode": "Site #J-078",
+      "lng": 114.185,
+      "lat": 22.381,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 314.08,
+          "density_score": 0.27,
+          "count_unique_50m": 2
+        },
+        "transport": {
+          "count_300m": 5,
+          "count_500m": 8,
+          "nearest_distance_m": 252.92,
+          "density_score": 2.8,
+          "count_unique_50m": 8
+        },
+        "commercial": {
+          "count_300m": 5,
+          "count_500m": 17,
+          "nearest_distance_m": 140.92,
+          "density_score": 1.14,
+          "count_unique_50m": 17
+        },
+        "public_service": {
+          "count_300m": 2,
+          "count_500m": 3,
+          "nearest_distance_m": 59.77,
+          "density_score": 1.8,
+          "count_unique_50m": 3
+        },
+        "leisure": {
+          "count_300m": 5,
+          "count_500m": 9,
+          "nearest_distance_m": 215.77,
+          "density_score": 7.36,
+          "count_unique_50m": 8
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0,
+          "count_unique_50m": 0
+        },
+        "restaurant": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "nearest_distance_m": 332.89,
+          "density_score": 0.25,
+          "count_unique_50m": 3
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "density_score": 0.0,
+          "count_unique_50m": 0
+        },
+        "education": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 204.74,
+          "density_score": 2.0,
+          "count_unique_50m": 1
+        }
+      },
+      "poiFactorsSub": {
+        "bus_stop": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 313.41,
+          "count_unique_50m": 1
+        },
+        "mtr_station": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "parking": {
+          "count_300m": 2,
+          "count_500m": 4,
+          "nearest_distance_m": 252.92,
+          "count_unique_50m": 4
+        },
+        "ferry_pier": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "ev_charging": {
+          "count_300m": 2,
+          "count_500m": 2,
+          "nearest_distance_m": 276.77,
+          "count_unique_50m": 2
+        },
+        "logistics": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 288.98,
+          "count_unique_50m": 1
+        },
+        "supermarket": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 464.72,
+          "count_unique_50m": 1
+        },
+        "convenience_store": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "shopping_mall": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "department_store": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "hotel": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 438.8,
+          "count_unique_50m": 1
+        },
+        "chinese_cuisine": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "nearest_distance_m": 493.75,
+          "count_unique_50m": 1
+        },
+        "fast_food": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cafe": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "teahouse": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "other_restaurant": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 332.89,
+          "count_unique_50m": 2
+        },
+        "foreign_cuisine": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "atm": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "insurance": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "clinic": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "nearest_distance_m": 314.08,
+          "count_unique_50m": 2
+        },
+        "general_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "specialist_hospital": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "pharmacy": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "emergency": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "gym": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "sports_complex": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "museum": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "cinema": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "bar": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "amusement_park": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "public_toilet": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 59.77,
+          "count_unique_50m": 1
+        },
+        "library": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "post_office": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "community_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "kindergarten": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "primary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "secondary_school": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "university": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "nearest_distance_m": 204.74,
+          "count_unique_50m": 1
+        },
+        "training_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "accessible_toilet": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "rehab_center": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "assistive_device": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        },
+        "barrier_free_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "nearest_distance_m": null,
+          "count_unique_50m": 0
+        }
+      },
+      "poiComposite": {
+        "suggestionTier": "weak",
+        "topStrengths": [],
+        "topGaps": [
+          "bank",
+          "accessibility_support",
+          "restaurant"
+        ],
+        "subcategoryStrengths": [
+          "parking",
+          "ev_charging",
+          "other_restaurant"
+        ],
+        "subcategoryGaps": [
+          "barrier_free_service",
+          "assistive_device",
+          "rehab_center"
+        ]
+      },
+      "poiSuggestions": [
+        "500m 内无障碍支持设施偏少，建议优先配置无障碍卫生间、辅具支持与休憩点。",
+        "公共便民服务覆盖不足，建议补充社区服务联动设施。",
+        "200m 内无障碍公厕不足，建议优先补齐无障碍卫生间。"
+      ]
+    }
+  ]
+}

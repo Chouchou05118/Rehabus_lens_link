@@ -1,0 +1,1003 @@
+{
+  "schemaVersion": "candidate-poi-features-v2",
+  "generatedAt": "2026-04-14T04:07:10.574634+00:00",
+  "source": {
+    "poi": "public/data/moduleB/poi/poi_cleaned_v2.json",
+    "candidates": "public/data/moduleB/depot_candidates_scored.json (fallback: src/types/MockData.ts)"
+  },
+  "radius": [
+    300,
+    500
+  ],
+  "radiusWeights": {
+    "300": 0.65,
+    "500": 0.35
+  },
+  "dedupeRadii": [
+    20,
+    50
+  ],
+  "countingNote": "density_score is computed from unique_50m weighted counts",
+  "candidates": [
+    {
+      "candidateId": "gt-001",
+      "siteCode": "Site #A-017",
+      "lng": 114.188,
+      "lat": 22.312,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 13,
+          "count_500m": 56,
+          "count_unique_20m_300m": 10,
+          "count_unique_20m_500m": 39,
+          "count_unique_50m_300m": 8,
+          "count_unique_50m_500m": 28,
+          "nearest_distance_m": 18.61,
+          "density_score": 38.56
+        },
+        "transport": {
+          "count_300m": 20,
+          "count_500m": 133,
+          "count_unique_20m_300m": 13,
+          "count_unique_20m_500m": 86,
+          "count_unique_50m_300m": 10,
+          "count_unique_50m_500m": 45,
+          "nearest_distance_m": 123.39,
+          "density_score": 39.52
+        },
+        "commercial": {
+          "count_300m": 84,
+          "count_500m": 540,
+          "count_unique_20m_300m": 45,
+          "count_unique_20m_500m": 183,
+          "count_unique_50m_300m": 26,
+          "count_unique_50m_500m": 86,
+          "nearest_distance_m": 39.47,
+          "density_score": 54.24
+        },
+        "public_service": {
+          "count_300m": 20,
+          "count_500m": 114,
+          "count_unique_20m_300m": 14,
+          "count_unique_20m_500m": 66,
+          "count_unique_50m_300m": 10,
+          "count_unique_50m_500m": 38,
+          "nearest_distance_m": 110.51,
+          "density_score": 36.91
+        },
+        "leisure": {
+          "count_300m": 12,
+          "count_500m": 45,
+          "count_unique_20m_300m": 10,
+          "count_unique_20m_500m": 38,
+          "count_unique_50m_300m": 9,
+          "count_unique_50m_500m": 30,
+          "nearest_distance_m": 75.93,
+          "density_score": 46.78
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 541.69,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 41,
+          "count_500m": 110,
+          "count_unique_20m_300m": 18,
+          "count_unique_20m_500m": 58,
+          "count_unique_50m_300m": 10,
+          "count_unique_50m_500m": 35,
+          "nearest_distance_m": 92.46,
+          "density_score": 37.24
+        },
+        "bank": {
+          "count_300m": 7,
+          "count_500m": 15,
+          "count_unique_20m_300m": 5,
+          "count_unique_20m_500m": 13,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 9,
+          "nearest_distance_m": 197.47,
+          "density_score": 37.36
+        },
+        "education": {
+          "count_300m": 7,
+          "count_500m": 44,
+          "count_unique_20m_300m": 6,
+          "count_unique_20m_500m": 29,
+          "count_unique_50m_300m": 5,
+          "count_unique_50m_500m": 22,
+          "nearest_distance_m": 27.53,
+          "density_score": 38.69
+        }
+      }
+    },
+    {
+      "candidateId": "depot-002",
+      "siteCode": "Site #B-023",
+      "lng": 114.225,
+      "lat": 22.279,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 98,
+          "count_500m": 138,
+          "count_unique_20m_300m": 39,
+          "count_unique_20m_500m": 62,
+          "count_unique_50m_300m": 20,
+          "count_unique_50m_500m": 39,
+          "nearest_distance_m": 55.26,
+          "density_score": 68.51
+        },
+        "transport": {
+          "count_300m": 77,
+          "count_500m": 178,
+          "count_unique_20m_300m": 38,
+          "count_unique_20m_500m": 89,
+          "count_unique_50m_300m": 22,
+          "count_unique_50m_500m": 52,
+          "nearest_distance_m": 43.32,
+          "density_score": 57.73
+        },
+        "commercial": {
+          "count_300m": 448,
+          "count_500m": 885,
+          "count_unique_20m_300m": 89,
+          "count_unique_20m_500m": 210,
+          "count_unique_50m_300m": 37,
+          "count_unique_50m_500m": 86,
+          "nearest_distance_m": 54.57,
+          "density_score": 62.49
+        },
+        "public_service": {
+          "count_300m": 114,
+          "count_500m": 218,
+          "count_unique_20m_300m": 43,
+          "count_unique_20m_500m": 98,
+          "count_unique_50m_300m": 22,
+          "count_unique_50m_500m": 53,
+          "nearest_distance_m": 92.0,
+          "density_score": 61.23
+        },
+        "leisure": {
+          "count_300m": 26,
+          "count_500m": 63,
+          "count_unique_20m_300m": 20,
+          "count_unique_20m_500m": 50,
+          "count_unique_50m_300m": 13,
+          "count_unique_50m_500m": 32,
+          "nearest_distance_m": 55.03,
+          "density_score": 56.22
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 3099.12,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 156,
+          "count_500m": 251,
+          "count_unique_20m_300m": 48,
+          "count_unique_20m_500m": 82,
+          "count_unique_50m_300m": 17,
+          "count_unique_50m_500m": 36,
+          "nearest_distance_m": 54.26,
+          "density_score": 46.97
+        },
+        "bank": {
+          "count_300m": 26,
+          "count_500m": 45,
+          "count_unique_20m_300m": 12,
+          "count_unique_20m_500m": 21,
+          "count_unique_50m_300m": 7,
+          "count_unique_50m_500m": 13,
+          "nearest_distance_m": 129.43,
+          "density_score": 66.67
+        },
+        "education": {
+          "count_300m": 27,
+          "count_500m": 45,
+          "count_unique_20m_300m": 12,
+          "count_unique_20m_500m": 26,
+          "count_unique_50m_300m": 10,
+          "count_unique_50m_500m": 23,
+          "nearest_distance_m": 46.4,
+          "density_score": 51.41
+        }
+      }
+    },
+    {
+      "candidateId": "depot-003",
+      "siteCode": "Site #C-041",
+      "lng": 114.165,
+      "lat": 22.332,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 161,
+          "count_500m": 320,
+          "count_unique_20m_300m": 64,
+          "count_unique_20m_500m": 134,
+          "count_unique_50m_300m": 27,
+          "count_unique_50m_500m": 61,
+          "nearest_distance_m": 11.81,
+          "density_score": 100.0
+        },
+        "transport": {
+          "count_300m": 166,
+          "count_500m": 272,
+          "count_unique_20m_300m": 93,
+          "count_unique_20m_500m": 164,
+          "count_unique_50m_300m": 43,
+          "count_unique_50m_500m": 81,
+          "nearest_distance_m": 43.72,
+          "density_score": 100.0
+        },
+        "commercial": {
+          "count_300m": 934,
+          "count_500m": 2384,
+          "count_unique_20m_300m": 189,
+          "count_unique_20m_500m": 393,
+          "count_unique_50m_300m": 59,
+          "count_unique_50m_500m": 138,
+          "nearest_distance_m": 3.28,
+          "density_score": 100.0
+        },
+        "public_service": {
+          "count_300m": 243,
+          "count_500m": 437,
+          "count_unique_20m_300m": 103,
+          "count_unique_20m_500m": 175,
+          "count_unique_50m_300m": 40,
+          "count_unique_50m_500m": 79,
+          "nearest_distance_m": 2.83,
+          "density_score": 100.0
+        },
+        "leisure": {
+          "count_300m": 58,
+          "count_500m": 130,
+          "count_unique_20m_300m": 36,
+          "count_unique_20m_500m": 93,
+          "count_unique_50m_300m": 22,
+          "count_unique_50m_500m": 59,
+          "nearest_distance_m": 41.15,
+          "density_score": 100.0
+        },
+        "accessibility_support": {
+          "count_300m": 2,
+          "count_500m": 3,
+          "count_unique_20m_300m": 2,
+          "count_unique_20m_500m": 3,
+          "count_unique_50m_300m": 2,
+          "count_unique_50m_500m": 3,
+          "nearest_distance_m": 101.78,
+          "density_score": 100.0
+        },
+        "restaurant": {
+          "count_300m": 254,
+          "count_500m": 752,
+          "count_unique_20m_300m": 89,
+          "count_unique_20m_500m": 211,
+          "count_unique_50m_300m": 36,
+          "count_unique_50m_500m": 77,
+          "nearest_distance_m": 3.17,
+          "density_score": 100.0
+        },
+        "bank": {
+          "count_300m": 13,
+          "count_500m": 80,
+          "count_unique_20m_300m": 11,
+          "count_unique_20m_500m": 48,
+          "count_unique_50m_300m": 7,
+          "count_unique_50m_500m": 26,
+          "nearest_distance_m": 90.38,
+          "density_score": 100.0
+        },
+        "education": {
+          "count_300m": 55,
+          "count_500m": 80,
+          "count_unique_20m_300m": 32,
+          "count_unique_20m_500m": 54,
+          "count_unique_50m_300m": 22,
+          "count_unique_50m_500m": 40,
+          "nearest_distance_m": 28.46,
+          "density_score": 100.0
+        }
+      }
+    },
+    {
+      "candidateId": "depot-004",
+      "siteCode": "Site #D-008",
+      "lng": 114.142,
+      "lat": 22.286,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 41,
+          "count_500m": 134,
+          "count_unique_20m_300m": 26,
+          "count_unique_20m_500m": 81,
+          "count_unique_50m_300m": 16,
+          "count_unique_50m_500m": 39,
+          "nearest_distance_m": 166.15,
+          "density_score": 61.83
+        },
+        "transport": {
+          "count_300m": 39,
+          "count_500m": 112,
+          "count_unique_20m_300m": 27,
+          "count_unique_20m_500m": 72,
+          "count_unique_50m_300m": 14,
+          "count_unique_50m_500m": 44,
+          "nearest_distance_m": 59.06,
+          "density_score": 43.52
+        },
+        "commercial": {
+          "count_300m": 467,
+          "count_500m": 1387,
+          "count_unique_20m_300m": 80,
+          "count_unique_20m_500m": 261,
+          "count_unique_50m_300m": 33,
+          "count_unique_50m_500m": 88,
+          "nearest_distance_m": 57.94,
+          "density_score": 60.3
+        },
+        "public_service": {
+          "count_300m": 74,
+          "count_500m": 279,
+          "count_unique_20m_300m": 32,
+          "count_unique_20m_500m": 125,
+          "count_unique_50m_300m": 14,
+          "count_unique_50m_500m": 53,
+          "nearest_distance_m": 150.41,
+          "density_score": 51.54
+        },
+        "leisure": {
+          "count_300m": 23,
+          "count_500m": 70,
+          "count_unique_20m_300m": 21,
+          "count_unique_20m_500m": 57,
+          "count_unique_50m_300m": 14,
+          "count_unique_50m_500m": 40,
+          "nearest_distance_m": 102.42,
+          "density_score": 66.09
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 922.58,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 136,
+          "count_500m": 394,
+          "count_unique_20m_300m": 50,
+          "count_unique_20m_500m": 152,
+          "count_unique_50m_300m": 16,
+          "count_unique_50m_500m": 54,
+          "nearest_distance_m": 39.93,
+          "density_score": 58.19
+        },
+        "bank": {
+          "count_300m": 23,
+          "count_500m": 44,
+          "count_unique_20m_300m": 11,
+          "count_unique_20m_500m": 21,
+          "count_unique_50m_300m": 6,
+          "count_unique_50m_500m": 11,
+          "nearest_distance_m": 162.97,
+          "density_score": 56.78
+        },
+        "education": {
+          "count_300m": 13,
+          "count_500m": 55,
+          "count_unique_20m_300m": 9,
+          "count_unique_20m_500m": 40,
+          "count_unique_50m_300m": 8,
+          "count_unique_50m_500m": 30,
+          "nearest_distance_m": 173.25,
+          "density_score": 55.48
+        }
+      }
+    },
+    {
+      "candidateId": "depot-005",
+      "siteCode": "Site #E-055",
+      "lng": 114.198,
+      "lat": 22.345,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 9,
+          "count_500m": 64,
+          "count_unique_20m_300m": 8,
+          "count_unique_20m_500m": 26,
+          "count_unique_50m_300m": 7,
+          "count_unique_50m_500m": 21,
+          "nearest_distance_m": 179.33,
+          "density_score": 30.59
+        },
+        "transport": {
+          "count_300m": 15,
+          "count_500m": 77,
+          "count_unique_20m_300m": 11,
+          "count_unique_20m_500m": 43,
+          "count_unique_50m_300m": 9,
+          "count_unique_50m_500m": 27,
+          "nearest_distance_m": 161.07,
+          "density_score": 27.18
+        },
+        "commercial": {
+          "count_300m": 25,
+          "count_500m": 143,
+          "count_unique_20m_300m": 15,
+          "count_unique_20m_500m": 62,
+          "count_unique_50m_300m": 10,
+          "count_unique_50m_500m": 39,
+          "nearest_distance_m": 176.88,
+          "density_score": 23.25
+        },
+        "public_service": {
+          "count_300m": 5,
+          "count_500m": 31,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 24,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 20,
+          "nearest_distance_m": 184.93,
+          "density_score": 16.68
+        },
+        "leisure": {
+          "count_300m": 8,
+          "count_500m": 14,
+          "count_unique_20m_300m": 7,
+          "count_unique_20m_500m": 13,
+          "count_unique_50m_300m": 6,
+          "count_unique_50m_500m": 12,
+          "nearest_distance_m": 148.1,
+          "density_score": 23.18
+        },
+        "accessibility_support": {
+          "count_300m": 1,
+          "count_500m": 3,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 3,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 3,
+          "nearest_distance_m": 195.79,
+          "density_score": 72.34
+        },
+        "restaurant": {
+          "count_300m": 3,
+          "count_500m": 33,
+          "count_unique_20m_300m": 2,
+          "count_unique_20m_500m": 19,
+          "count_unique_50m_300m": 2,
+          "count_unique_50m_500m": 12,
+          "nearest_distance_m": 185.62,
+          "density_score": 10.92
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 6,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 5,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 2,
+          "nearest_distance_m": 301.84,
+          "density_score": 5.13
+        },
+        "education": {
+          "count_300m": 2,
+          "count_500m": 11,
+          "count_unique_20m_300m": 2,
+          "count_unique_20m_500m": 11,
+          "count_unique_50m_300m": 2,
+          "count_unique_50m_500m": 9,
+          "nearest_distance_m": 265.11,
+          "density_score": 15.72
+        }
+      }
+    },
+    {
+      "candidateId": "depot-006",
+      "siteCode": "Site #F-012",
+      "lng": 114.172,
+      "lat": 22.298,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 7,
+          "count_500m": 98,
+          "count_unique_20m_300m": 5,
+          "count_unique_20m_500m": 40,
+          "count_unique_50m_300m": 4,
+          "count_unique_50m_500m": 17,
+          "nearest_distance_m": 78.09,
+          "density_score": 21.98
+        },
+        "transport": {
+          "count_300m": 42,
+          "count_500m": 129,
+          "count_unique_20m_300m": 26,
+          "count_unique_20m_500m": 85,
+          "count_unique_50m_300m": 15,
+          "count_unique_50m_500m": 44,
+          "nearest_distance_m": 24.67,
+          "density_score": 44.67
+        },
+        "commercial": {
+          "count_300m": 659,
+          "count_500m": 2332,
+          "count_unique_20m_300m": 77,
+          "count_unique_20m_500m": 227,
+          "count_unique_50m_300m": 27,
+          "count_unique_50m_500m": 78,
+          "nearest_distance_m": 19.8,
+          "density_score": 51.76
+        },
+        "public_service": {
+          "count_300m": 58,
+          "count_500m": 255,
+          "count_unique_20m_300m": 29,
+          "count_unique_20m_500m": 112,
+          "count_unique_50m_300m": 19,
+          "count_unique_50m_500m": 51,
+          "nearest_distance_m": 42.95,
+          "density_score": 56.29
+        },
+        "leisure": {
+          "count_300m": 29,
+          "count_500m": 102,
+          "count_unique_20m_300m": 23,
+          "count_unique_20m_500m": 74,
+          "count_unique_50m_300m": 15,
+          "count_unique_50m_500m": 45,
+          "nearest_distance_m": 48.79,
+          "density_score": 72.96
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 1,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 1,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 1,
+          "nearest_distance_m": 371.02,
+          "density_score": 14.89
+        },
+        "restaurant": {
+          "count_300m": 122,
+          "count_500m": 469,
+          "count_unique_20m_300m": 41,
+          "count_unique_20m_500m": 137,
+          "count_unique_50m_300m": 21,
+          "count_unique_50m_500m": 49,
+          "nearest_distance_m": 26.49,
+          "density_score": 61.17
+        },
+        "bank": {
+          "count_300m": 35,
+          "count_500m": 97,
+          "count_unique_20m_300m": 18,
+          "count_unique_20m_500m": 46,
+          "count_unique_50m_300m": 7,
+          "count_unique_50m_500m": 24,
+          "nearest_distance_m": 61.77,
+          "density_score": 94.87
+        },
+        "education": {
+          "count_300m": 6,
+          "count_500m": 54,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 24,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 13,
+          "nearest_distance_m": 152.33,
+          "density_score": 22.97
+        }
+      }
+    },
+    {
+      "candidateId": "depot-007",
+      "siteCode": "Site #G-067",
+      "lng": 114.156,
+      "lat": 22.341,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 1,
+          "count_500m": 63,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 25,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 13,
+          "nearest_distance_m": 295.21,
+          "density_score": 13.37
+        },
+        "transport": {
+          "count_300m": 1,
+          "count_500m": 60,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 45,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 19,
+          "nearest_distance_m": 65.05,
+          "density_score": 12.97
+        },
+        "commercial": {
+          "count_300m": 21,
+          "count_500m": 674,
+          "count_unique_20m_300m": 12,
+          "count_unique_20m_500m": 87,
+          "count_unique_50m_300m": 9,
+          "count_unique_50m_500m": 36,
+          "nearest_distance_m": 78.27,
+          "density_score": 21.29
+        },
+        "public_service": {
+          "count_300m": 2,
+          "count_500m": 97,
+          "count_unique_20m_300m": 2,
+          "count_unique_20m_500m": 41,
+          "count_unique_50m_300m": 2,
+          "count_unique_50m_500m": 18,
+          "nearest_distance_m": 135.41,
+          "density_score": 14.17
+        },
+        "leisure": {
+          "count_300m": 4,
+          "count_500m": 28,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 23,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 18,
+          "nearest_distance_m": 167.76,
+          "density_score": 23.61
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 803.09,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 1,
+          "count_500m": 79,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 34,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 19,
+          "nearest_distance_m": 85.09,
+          "density_score": 14.5
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 7,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 4,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 4,
+          "nearest_distance_m": 386.82,
+          "density_score": 10.26
+        },
+        "education": {
+          "count_300m": 0,
+          "count_500m": 9,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 8,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 6,
+          "nearest_distance_m": 425.34,
+          "density_score": 7.42
+        }
+      }
+    },
+    {
+      "candidateId": "depot-008",
+      "siteCode": "Site #H-034",
+      "lng": 114.234,
+      "lat": 22.296,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 2,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 1,
+          "nearest_distance_m": 354.66,
+          "density_score": 0.9
+        },
+        "transport": {
+          "count_300m": 10,
+          "count_500m": 22,
+          "count_unique_20m_300m": 7,
+          "count_unique_20m_500m": 17,
+          "count_unique_50m_300m": 7,
+          "count_unique_50m_500m": 13,
+          "nearest_distance_m": 72.19,
+          "density_score": 16.16
+        },
+        "commercial": {
+          "count_300m": 11,
+          "count_500m": 27,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 13,
+          "count_unique_50m_300m": 2,
+          "count_unique_50m_500m": 8,
+          "nearest_distance_m": 193.02,
+          "density_score": 4.73
+        },
+        "public_service": {
+          "count_300m": 5,
+          "count_500m": 10,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 7,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 6,
+          "nearest_distance_m": 47.02,
+          "density_score": 7.55
+        },
+        "leisure": {
+          "count_300m": 3,
+          "count_500m": 4,
+          "count_unique_20m_300m": 2,
+          "count_unique_20m_500m": 3,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 2,
+          "nearest_distance_m": 85.42,
+          "density_score": 3.86
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 1035.63,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 1,
+          "count_500m": 6,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 3,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 3,
+          "nearest_distance_m": 240.8,
+          "density_score": 3.38
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 601.31,
+          "density_score": 0.0
+        },
+        "education": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 621.96,
+          "density_score": 0.0
+        }
+      }
+    },
+    {
+      "candidateId": "depot-009",
+      "siteCode": "Site #I-019",
+      "lng": 114.119,
+      "lat": 22.264,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 1036.73,
+          "density_score": 0.0
+        },
+        "transport": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 939.89,
+          "density_score": 0.0
+        },
+        "commercial": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 860.84,
+          "density_score": 0.0
+        },
+        "public_service": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 985.18,
+          "density_score": 0.0
+        },
+        "leisure": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 892.14,
+          "density_score": 0.0
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 2279.04,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 1086.91,
+          "density_score": 0.0
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 1146.62,
+          "density_score": 0.0
+        },
+        "education": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 944.15,
+          "density_score": 0.0
+        }
+      }
+    },
+    {
+      "candidateId": "depot-010",
+      "siteCode": "Site #J-078",
+      "lng": 114.185,
+      "lat": 22.381,
+      "poiFactors": {
+        "medical": {
+          "count_300m": 0,
+          "count_500m": 2,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 2,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 2,
+          "nearest_distance_m": 314.08,
+          "density_score": 1.8
+        },
+        "transport": {
+          "count_300m": 4,
+          "count_500m": 7,
+          "count_unique_20m_300m": 3,
+          "count_unique_20m_500m": 5,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 5,
+          "nearest_distance_m": 252.92,
+          "density_score": 6.57
+        },
+        "commercial": {
+          "count_300m": 11,
+          "count_500m": 30,
+          "count_unique_20m_300m": 9,
+          "count_unique_20m_500m": 24,
+          "count_unique_50m_300m": 8,
+          "count_unique_50m_500m": 21,
+          "nearest_distance_m": 140.92,
+          "density_score": 14.48
+        },
+        "public_service": {
+          "count_300m": 3,
+          "count_500m": 6,
+          "count_unique_20m_300m": 3,
+          "count_unique_20m_500m": 5,
+          "count_unique_50m_300m": 3,
+          "count_unique_50m_500m": 5,
+          "nearest_distance_m": 59.77,
+          "density_score": 6.9
+        },
+        "leisure": {
+          "count_300m": 5,
+          "count_500m": 9,
+          "count_unique_20m_300m": 4,
+          "count_unique_20m_500m": 8,
+          "count_unique_50m_300m": 4,
+          "count_unique_50m_500m": 8,
+          "nearest_distance_m": 215.77,
+          "density_score": 15.45
+        },
+        "accessibility_support": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 981.21,
+          "density_score": 0.0
+        },
+        "restaurant": {
+          "count_300m": 0,
+          "count_500m": 3,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 3,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 3,
+          "nearest_distance_m": 332.89,
+          "density_score": 2.09
+        },
+        "bank": {
+          "count_300m": 0,
+          "count_500m": 0,
+          "count_unique_20m_300m": 0,
+          "count_unique_20m_500m": 0,
+          "count_unique_50m_300m": 0,
+          "count_unique_50m_500m": 0,
+          "nearest_distance_m": 731.38,
+          "density_score": 0.0
+        },
+        "education": {
+          "count_300m": 1,
+          "count_500m": 1,
+          "count_unique_20m_300m": 1,
+          "count_unique_20m_500m": 1,
+          "count_unique_50m_300m": 1,
+          "count_unique_50m_500m": 1,
+          "nearest_distance_m": 204.74,
+          "density_score": 3.53
+        }
+      }
+    }
+  ]
+}
